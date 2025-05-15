@@ -1,20 +1,28 @@
 body {
-    background-color: blue;
+    background-color: rgb(189, 189, 213);
 }
-h1 {
+/*h1 {
     color: #fff;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 58px;
-}
+}*/
 div {
-    width: 300px;
+    /*width: 300px;*/
     background-color: chartreuse;
-    padding: 20px;
-
+    /*padding: 20px;*/
+    text-align: center;
 }
-span {
-    background-color: hotpink;
-*/ padding: 20px;   
- text-align: center;
+.green-color {
+    color: #08cf19;
+    font-size: 30px;
+}
+
+.line {
+    height: 1px;
+    background-color: red;
+}
+h2 {
+    font-size: 50px;
+    color: cornflowerblue;
 }
