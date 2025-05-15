@@ -1,0 +1,20 @@
+body {
+    background-color: blue;
+}
+h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 58px;
+}
+div {
+    width: 300px;
+    background-color: chartreuse;
+    padding: 20px;
+
+}
+span {
+    background-color: hotpink;
+*/ padding: 20px;   
+ text-align: center;
+}
