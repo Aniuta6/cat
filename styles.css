@@ -1,18 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: rgb(189, 189, 213);
+    height: 10000px;
 }
-/*h1 {
+/* h1 {
     color: #fff;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 58px;
-}*/
-div {
-    /*width: 300px;*/
-    background-color: chartreuse;
-    /*padding: 20px;*/
-    text-align: center;
-}
+} */
+
 .green-color {
     color: #08cf19;
     font-size: 30px;
@@ -24,5 +25,38 @@ div {
 }
 h2 {
     font-size: 50px;
-    color: cornflowerblue;
+    color: rgb(17, 5, 255);
+}
+
+.Test {color: purple;
+font-size: 26px;
+} 
+#TestId {
+    color: yellow;
+}
+.menu {
+    display: flex;
+    gap: 20px;
+}
+.menu li {
+    list-style: none;
+}
+.menu li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+}
+textarea {
+    resize: none;
+}
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.h_section {
+    background-color: crimson;
+}
+.p_section {
+    background-color: aquamarine;
 }
